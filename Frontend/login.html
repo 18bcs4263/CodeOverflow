@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="CSS/logincss.css">
+    <link rel="shortcut icon" type="image/png" href="images/logo1.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <title>Login</title>
+
+</head>
+
+<body>
+    <!-- ----------------------Navbar Starts------------------------- -->
+    <div style="background-color: #8194fc;">
+        <nav class="navbar navbar-expand-sm py-3 text-dark">
+            <a class="navbar-brand text-dark" href="index.html">
+                <img src="logo1.png" class="d-inline-block" width="40" height="40" alt="logo">
+                CodeOverflow</a>
+
+            <div class="float-right ml-auto" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="Signup.html" id="idSignup">Signup</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- ---------------------Navbar Ends----------------------- -->
+
+    <main>
+        <div id="main-container" class="mx-auto my-4" >
+
+            <div id="container1">
+
+                <form id="form-container">
+                    <div id="heading">Login</div>
+                    <div id="loginSuccess" style="visibility: hidden;">Success!!</div>
+                    <div id="loginFail" style="visibility: hidden;">Fail!!</div>
+                    <div id="outer-inputs">
+                        <div> <label>Email</label> </div>
+                        <div> <i class="fa fa-envelope" id="icon"></i> </div>
+                        <div> <input type="email" placeholder="xyz@gmail.com" name="userEmail" required> </div>
+                    </div>
+                    <div id="outer-inputs">
+                        <div><label>Password</label> </div>
+                        <div> <i class="fa fa-lock" id="icon"> </i> </div>
+                        <div id="adjust"> <input type="password" placeholder="password" name="userPassword" required>
+                        </div>
+                    </div>
+                    <div id="outer-input">
+                        <button type="submit" id="btn" style="cursor:pointer;">Login</button>
+                    </div>
+                    <div id="outer-input"><u>
+                            Don't have an account?<label for=" "> Sign Up</label>
+                        </u>
+                    </div>
+
+                </form>
+            </div>
+            <div id="container2"></div>
+
+        </div>
+
+
+    </main>
+
+    <script src="js/login.js"></script>
+    <script src="js/session.js"></script>
+</body>
+
+</html>

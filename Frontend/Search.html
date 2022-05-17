@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <style>
+    html,
+    body {
+      height: 100%;
+      width: 100%;
+      margin: 0;
+    }
+  </style>
+  <title>Search</title>
+</head>
+
+<body>
+  <!-- ----------------------Navbar Starts------------------------- -->
+  <div style="background-color: #8194fc;">
+    <nav class="navbar navbar-expand-sm py-3 text-dark">
+      <a class="navbar-brand text-dark" href="#">
+        <img src="logo1.png" class="d-inline-block" width="40" height="40" alt="logo">
+        CodeOverflow</a>
+
+      <div class="float-right ml-auto" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="Home.html" id="idHome">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="Search.html" id="idSearch">Search</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#" id="idConnections">Connections</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#" id="idLogout">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- ---------------------Navbar Ends----------------------- -->
+
+  <div class="input-group rounded mt-5 mx-auto px-5">
+    <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+      aria-describedby="search-addon" id="idSearchBox" />
+    <span class="input-group-text border-0 mx-1" id="search-addon" style="cursor: pointer;">
+      <i class="fa fa-search"></i>
+    </span>
+  </div>
+
+
+  <div class="my-5" style="height: 65.5%;">
+    <div class="row w-100 h-100">
+      <div class="col-3" name="filterContainer">
+        <div class="mx-4 my-1">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="skillInputs" id="idSkill1">
+            <label class="form-check-label" for="idSkill1">
+              Competitive Coding in C++
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="skillInputs" id="idSkill2">
+            <label class="form-check-label" for="idSkill2">
+              Competitive Coding in JAVA
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="skillInputs" id="idSkill3">
+            <label class="form-check-label" for="idSkill3">
+              Competitive Coding in PYTHON
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="skillInputs" id="idSkill4">
+            <label class="form-check-label" for="idSkill4">
+              MERN STACK
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="skillInputs" id="idSkill5">
+            <label class="form-check-label" for="idSkill5">
+              MEAN STACK
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="skillInputs" id="idSkill6">
+            <label class="form-check-label" for="idSkill6">
+              HTML CSS JAVASCRIPT
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="skillInputs" id="idSkill7">
+            <label class="form-check-label" for="idSkill7">
+              Android Development in JAVA
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="skillInputs" id="idSkill8">
+            <label class="form-check-label" for="idSkill8">
+              Android Development in KOTLIN
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="skillInputs" id="idSkill9">
+            <label class="form-check-label" for="idSkill9">
+              Android Development in fLUTTER
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="skillInputs" id="idSkill10">
+            <label class="form-check-label" for="idSkill10">
+              Machine Learning
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="skillInputs" id="idSkill11">
+            <label class="form-check-label" for="idSkill11">
+              Blockchain Development
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="skillInputs" id="idSkill12">
+            <label class="form-check-label" for="idSkill12">
+              Game Development
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="col-9" name="mainContainer" style="border-left: 1px solid gray;">
+          <div class="my-0 mx-2" id="idSearchContainer">
+          </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+  <script src="js/session.js"></script>
+  <script src="js/search.js"></script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

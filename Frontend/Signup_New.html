@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="./CSS/SignUp_New.css">
+    <link rel="shortcut icon" type="image/png" href="images/logo1.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <main>
+    <div class="outer"> 
+        <div class="main1">
+            <div id="logo">
+                <div id="logo1"><img src="./images/logo1.png" height="35px" width="35px"></div>
+                <div id="logo2"> CodeOverflow</div>
+              
+            </div>
+            <div id="started">
+                Get Started 
+
+            </div>
+            <div id="link">
+                Already have an account?<label for=" ">Login</label>
+           
+               </div> 
+
+               <form id="form-container">
+                
+                <div id="outer-inputs">
+                    <div id="label"><label>Name</label></div>
+                    <div id="label"><i class="fa fa-user" id="icon"></i> </div>
+                    <div><input type="text" placeholder="Nishtha" id="idName" required></div>
+                </div>
+                <div id="outer-inputs">
+                    <div>   <label>Email</label> </div>
+                    <div>    <i class="fa fa-envelope" id="icon"></i> </div>
+                    <div>   <input type="email" placeholder="xyz@gmail.com" id = "idEmail" required> </div>
+                </div>
+                <div id="outer-inputs">
+                    <div id="adjust"><label>Password</label> </div>
+                    <div>    <i class="fa fa-lock" id="icon"> </i>  </div>
+                     <div id="adjust">   <input type="password" placeholder="password" id="idPass" required> </div>
+                </div>
+                <div id="outer-inputs">
+                    <div  id="adjust"><label>University</label> </div>
+                    <div>    <i class="fa fa-university" id="icon"> </i>  </div>
+                     <div id="adjust">   <input type="text" id="idUni" placeholder="Chandigarh University" required> </div>
+                </div>
+                <div id="outer-inputs">
+                    <div id="adjust"><label>About you</label> </div>
+                    <div>    <i class="fa fa-info" id="icon"> </i>  </div>
+                     <div id="adjust">   <input type="text" id="idDescription" placeholder="A few words about you" required> </div>
+                </div>
+
+                <div id="outer-input">
+                 
+                    <div>
+                      <select multiple name="skills" id="skills" >
+                          <option hidden>Choose Your Skillset</option>
+                          <optgroup label="Competitive Coding">
+                              <option>Competitive Coding in C++ </option>
+                              <option> Competitive Coding in JAVA</option>
+                              <option> Competitive Coding in PYTHON</option>
+                          </optgroup>
+                          </optgroup>
+                          <optgroup label=" Web Development">
+                              <option> MERN STACK</option>
+                              <option> MEAN STACK</option>
+                              <option> HTML CSS JAVASCRIPT</option>
+      
+                          </optgroup>
+                          <optgroup label=" Mobile Development" >
+                              <option> Android Development in JAVA</option>
+                              <option> Android Development in KOTLIN</option>
+                              <option> Android Development in fLUTTER</option>
+      
+                          </optgroup>
+                          <option id="options"> Machine Learning</option>
+                          <option id="options"> Blockchain Development</option>
+                          <option id="options"> Game Development</option>
+      
+      
+      
+                      </select>
+                    </div>
+                  </div>
+                <div id="outer-input">
+                    <button type="submit" id="btn">SignUp</button>
+                </div>
+                 
+
+            </form>
+
+
+
+        </div>
+    <div class="main2">
+
+    </div></div>
+    </main>
+   
+
+</body>
+</html>

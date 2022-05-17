@@ -1,0 +1,120 @@
+<!Doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./CSS/signup.css">
+        <link rel="shortcut icon" type="image/png" href="../Code Overflow/images/logo1.png">
+        <title> SignUp </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+        
+            <div class="logo">
+            <img src="./logo1.png" alt="logo" height="49px" width="49px">
+            <div id="name">CodeOverflow</div>
+            </div>
+            
+            <nav>
+                <ul>
+                    
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="#">Feedback</a></li>
+    
+                </ul>
+            </nav>
+            
+        </header>
+        <main>
+            <div id="main-container">
+               
+                <div id="container1">
+                    
+                    <form id="form-container">
+                        <div id="heading">SignUp</div>
+                        <div id="outer-inputs">
+                            <div id="label"><label>Name</label></div>
+                            <div id="label"><i class="fa fa-user" id="icon"></i> </div>
+                            <div><input type="text" placeholder="Nishtha" id="idName" required></div>
+                        </div>
+                        <div id="outer-inputs">
+                            <div>   <label>Email</label> </div>
+                            <div>    <i class="fa fa-envelope" id="icon"></i> </div>
+                            <div>   <input type="email" placeholder="xyz@gmail.com" id = "idEmail" required> </div>
+                        </div>
+                        <div id="outer-inputs">
+                            <div ><label>Password</label> </div>
+                            <div>    <i class="fa fa-lock" id="icon"> </i>  </div>
+                             <div id="adjust">   <input type="password" placeholder="password" id="idPass" required> </div>
+                        </div>
+                        <div id="outer-inputs">
+                            <div ><label>University</label> </div>
+                            <div>    <i class="fa fa-university" id="icon"> </i>  </div>
+                             <div id="adjust">   <input type="text" id="idUni" placeholder="Chandigarh University" required> </div>
+                        </div>
+                        <div id="outer-inputs">
+                            <div ><label>About you</label> </div>
+                            <div>    <i class="fa fa-info" id="icon"> </i>  </div>
+                             <div id="adjust">   <input type="text" id="idDescription" placeholder="A few words about you" required> </div>
+                        </div>
+
+                        <div id="outer-inputs">
+                            <div ><label>Choose your skillset :</label> </div>
+                           
+                            
+                        </div>
+                        <div id="outer-input">
+                         
+                            <div id="drop-down">
+                             
+                              <select multiple name="skills" id="skills" >
+                                 
+                                
+                                  <optgroup label="Competitive Coding">
+                                      <option>Competitive Coding in C++ </option>
+                                      <option> Competitive Coding in JAVA</option>
+                                      <option> Competitive Coding in PYTHON</option>
+                                  </optgroup>
+                                  </optgroup>
+                                  <optgroup label=" Web Development">
+                                      <option> MERN STACK</option>
+                                      <option> MEAN STACK</option>
+                                      <option> HTML CSS JAVASCRIPT</option>
+              
+                                  </optgroup>
+                                  <optgroup label=" Mobile Development" >
+                                      <option> Android Development in JAVA</option>
+                                      <option> Android Development in KOTLIN</option>
+                                      <option> Android Development in FLUTTER</option>
+              
+                                  </optgroup>
+                                  <option id="options"> Machine Learning</option>
+                                  <option id="options"> Blockchain Development</option>
+                                  <option id="options"> Game Development</option>
+              
+              
+              
+                              </select>
+                            </div>
+                          </div>
+                        <div id="outer-input">
+                            <button type="submit" id="btn">SignUp</button>
+                        </div>
+                        <div id="outer-input"><u>
+                            Already have an account?<label for=" ">Login</label>
+                       </u>
+                           </div> 
+
+                    </form>
+                </div>
+                <div id="container2"></div>
+
+            </div>
+        </main>
+        
+        <script src="js/signup.js"></script>
+        <script src="js/session.js"></script>
+
+    </body>
+</html>

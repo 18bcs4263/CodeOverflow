@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins , sans-serif;
+}
+.outer{
+    position: relative;
+}
+.main2{
+    background-image:url(../images/login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  position:absolute;
+  left:40vw;
+    height: 100vh;
+    width: 60vw;
+    top: 0vh;
+    bottom: 100vh;
+}
+#logo{
+    display: flex;
+    padding-top: 2%;
+    padding-left: 10%;
+    
+}
+#logo1{
+    
+    height: 10px;
+    width: 10px;
+}
+#logo2{
+    padding-left: 45px;
+   padding-top: 2px;
+    font-weight: bold;
+    font-size: x-large;
+}
+#started{
+    font-weight:lighter;
+    font-size: 3.4rem;
+    padding-left: 8%;
+    padding-top: 2%;
+}
+#link{ font-weight:lighter;
+    font-size: 1rem;
+    padding-left: 10%;
+   
+    color: grey;
+
+}
+#form-container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 8%;
+    padding-top: 2%;
+    
+}
+input{
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    font-weight: 300;
+    border-bottom: 2px solid black;
+
+    width: 100%;
+    margin-left: 10px;
+    font-size: medium;
+    
+    
+}
+#outer-inputs{
+    display: flex;
+  
+    padding: 9px;
+  
+}
+#outer-input{
+    
+    padding: 9px;
+    margin: 29px;
+   
+    
+   
+}
+#icon{
+    font-size: 23px;
+    padding-left: 7px;
+    
+
+}
+
+#btn{
+    background-color: black;
+    color: white;
+    width: 290px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.4rem;
+ margin-left: -40px;
+  
+}
+#skills{
+
+}
+#adjust{
+    margin-left: -10px;
+}

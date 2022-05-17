@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins , sans-serif;
+}
+
+header {
+   
+    height: 75px;
+    
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    align-items: center;
+   
+    background-color: #8194fc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    top: 0;
+    z-index: 100;
+    left: 0;
+    right: 0;
+   
+    
+}
+.signup-btn{
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    text-align: center;
+    padding: 4px;
+    background-color: white;
+    font-size:smaller;
+    
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    margin-right: -200px;
+  
+    
+}
+ul li a{
+    padding: 0  15px;
+    color: black;
+    text-decoration: none;
+   
+
+
+   
+}
+.logo{
+margin-left: -80px;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+#name{
+    border-right: 1px solid black;
+    padding:  0 5px;
+    font-weight: bolder;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+ /*background-color: aqua;*/
+    margin-top: 70px;
+    align-items: center;
+    
+   
+    width: 100%;
+    height: 1200px;
+    
+}
+.Main-Heading{
+   /* background-color: blueviolet;*/
+   
+    font-weight: 500;
+    font-size: x-large;
+    border-bottom: 1px solid black;
+    font-style:normal;
+    border-width: 2px;
+    margin-top: 70px;
+
+}
+body{
+    background-color: whitesmoke;
+    width: 100%;
+}
+.Contest-Info{
+ 
+    margin: 70px;
+ 
+ flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.5);
+    border-top: 0.5px solid rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    
+
+    
+}
+#upcoming{
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+    padding-right: 5px;
+    transition-property: background-color;
+}
+#upcoming:hover{
+    background-color: #8194fc;
+}
+#previous{
+    
+    padding-left: 5px;
+}
+.boxes{
+    /*background-color: blue;*/
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#Mention_box{
+    height: 340px;
+    width: 270px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin: 50px ;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.Upcoming-Contest{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 20px;
+    
+
+
+}
+.Previous-Contest{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   /* background-color: pink;*/
+    margin: 20px;
+
+
+}
+.boxes{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+
+
+}
+.Contest{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Hackathons{
+    margin-top: 90px;
+
+} 
+#button{
+border-radius: 12px;
+background-color:#4765ff;
+color: white;
+text-align: center;
+text-decoration: none;
+margin-top: 40px;
+width: 90px;
+height: 35px;
+
+border-color: #8194fc;
+
+
+}
+ #image{
+    background-image: url(./HTML/photos/codeforces_logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#CardText{
+    text-align: center;
+    font-weight: bolder;
+    margin-top: -20px;
+}
